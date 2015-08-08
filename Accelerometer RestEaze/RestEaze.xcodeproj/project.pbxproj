@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A743D39A1A57130F004A65E2 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A743D3991A57130F004A65E2 /* FourthViewController.m */; };
+		A76D50211AA925ED00B75FEE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A76D50201AA925ED00B75FEE /* libsqlite3.0.dylib */; };
+		A7BD52301A53A8B60018891E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD522F1A53A8B60018891E /* main.m */; };
+		A7BD52331A53A8B60018891E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD52321A53A8B60018891E /* AppDelegate.m */; };
+		A7BD52361A53A8B60018891E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD52351A53A8B60018891E /* FirstViewController.m */; };
+		A7BD523E1A53A8B60018891E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD523D1A53A8B60018891E /* Images.xcassets */; };
+		A7BD52411A53A8B60018891E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BD523F1A53A8B60018891E /* LaunchScreen.xib */; };
+		A7BD524D1A53A8B60018891E /* REST_EAZETests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD524C1A53A8B60018891E /* REST_EAZETests.m */; };
+		A7D1D54D1A70D40900591144 /* FSLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D1D54A1A70D40900591144 /* FSLineChart.m */; };
+		A7D1D54E1A70D40900591144 /* UIColor+FSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D1D54C1A70D40900591144 /* UIColor+FSPalette.m */; };
+		A7DC2F891A65C54D0090353E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC2F881A65C54D0090353E /* CoreBluetooth.framework */; };
+		A7DC2F8F1A65C58A0090353E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC2F8E1A65C58A0090353E /* CoreGraphics.framework */; };
+		A7EDF56E1A8AC56C0075725C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EDF56D1A8AC56C0075725C /* LoginViewController.m */; };
+		A7EDF5711A8AD8E10075725C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EDF56F1A8AD8E10075725C /* Main.storyboard */; };
+		A7F316DA1A810FDB00806DBC /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F316D31A810FDB00806DBC /* BackgroundTaskManager.m */; };
+		A7F316DB1A810FDB00806DBC /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F316D51A810FDB00806DBC /* LocationShareModel.m */; };
+		A7F316DC1A810FDB00806DBC /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F316D71A810FDB00806DBC /* LocationTracker.m */; };
+		A7F316E01A8116C200806DBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC2F8A1A65C55F0090353E /* UIKit.framework */; };
+		A7F316E11A8116D600806DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC2F8C1A65C5770090353E /* Foundation.framework */; };
+		A7F316E31A8116E200806DBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F316E21A8116E200806DBC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7BD52471A53A8B60018891E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD52221A53A8B50018891E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BD52291A53A8B60018891E;
+			remoteInfo = "REST EAZE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A743D3981A57130F004A65E2 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A743D3991A57130F004A65E2 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A76D50201AA925ED00B75FEE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A7BD522A1A53A8B60018891E /* RestEaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestEaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BD522E1A53A8B60018891E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BD522F1A53A8B60018891E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7BD52311A53A8B60018891E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7BD52321A53A8B60018891E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7BD52341A53A8B60018891E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A7BD52351A53A8B60018891E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A7BD523D1A53A8B60018891E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7BD52401A53A8B60018891E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7BD52461A53A8B60018891E /* RestEazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestEazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BD524B1A53A8B60018891E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BD524C1A53A8B60018891E /* REST_EAZETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REST_EAZETests.m; sourceTree = "<group>"; };
+		A7D1D5491A70D40900591144 /* FSLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLineChart.h; sourceTree = "<group>"; };
+		A7D1D54A1A70D40900591144 /* FSLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLineChart.m; sourceTree = "<group>"; };
+		A7D1D54B1A70D40900591144 /* UIColor+FSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSPalette.h"; sourceTree = "<group>"; };
+		A7D1D54C1A70D40900591144 /* UIColor+FSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSPalette.m"; sourceTree = "<group>"; };
+		A7DC2F881A65C54D0090353E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A7DC2F8A1A65C55F0090353E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7DC2F8C1A65C5770090353E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7DC2F8E1A65C58A0090353E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7EDF56C1A8AC56C0075725C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A7EDF56D1A8AC56C0075725C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A7EDF5701A8AD8E10075725C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F316D21A810FDB00806DBC /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
+		A7F316D31A810FDB00806DBC /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		A7F316D41A810FDB00806DBC /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
+		A7F316D51A810FDB00806DBC /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
+		A7F316D61A810FDB00806DBC /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		A7F316D71A810FDB00806DBC /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
+		A7F316E21A8116E200806DBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BD52271A53A8B60018891E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76D50211AA925ED00B75FEE /* libsqlite3.0.dylib in Frameworks */,
+				A7F316E31A8116E200806DBC /* CoreLocation.framework in Frameworks */,
+				A7F316E11A8116D600806DBC /* Foundation.framework in Frameworks */,
+				A7F316E01A8116C200806DBC /* UIKit.framework in Frameworks */,
+				A7DC2F8F1A65C58A0090353E /* CoreGraphics.framework in Frameworks */,
+				A7DC2F891A65C54D0090353E /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BD52431A53A8B60018891E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7BD52211A53A8B50018891E = {
+			isa = PBXGroup;
+			children = (
+				A76D50201AA925ED00B75FEE /* libsqlite3.0.dylib */,
+				A7EDF56C1A8AC56C0075725C /* LoginViewController.h */,
+				A7EDF56D1A8AC56C0075725C /* LoginViewController.m */,
+				A7F316E21A8116E200806DBC /* CoreLocation.framework */,
+				A7DC2F8E1A65C58A0090353E /* CoreGraphics.framework */,
+				A7DC2F8C1A65C5770090353E /* Foundation.framework */,
+				A7DC2F8A1A65C55F0090353E /* UIKit.framework */,
+				A7DC2F881A65C54D0090353E /* CoreBluetooth.framework */,
+				A7BD522C1A53A8B60018891E /* RestEaze */,
+				A7BD52491A53A8B60018891E /* RestEazeTests */,
+				A7BD522B1A53A8B60018891E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BD522B1A53A8B60018891E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD522A1A53A8B60018891E /* RestEaze.app */,
+				A7BD52461A53A8B60018891E /* RestEazeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BD522C1A53A8B60018891E /* RestEaze */ = {
+			isa = PBXGroup;
+			children = (
+				A7EDF56F1A8AD8E10075725C /* Main.storyboard */,
+				A7F316D21A810FDB00806DBC /* BackgroundTaskManager.h */,
+				A7F316D31A810FDB00806DBC /* BackgroundTaskManager.m */,
+				A7F316D41A810FDB00806DBC /* LocationShareModel.h */,
+				A7F316D51A810FDB00806DBC /* LocationShareModel.m */,
+				A7F316D61A810FDB00806DBC /* LocationTracker.h */,
+				A7F316D71A810FDB00806DBC /* LocationTracker.m */,
+				A7D1D5481A70D40900591144 /* FSLineChart */,
+				A743D3981A57130F004A65E2 /* FourthViewController.h */,
+				A743D3991A57130F004A65E2 /* FourthViewController.m */,
+				A7BD52311A53A8B60018891E /* AppDelegate.h */,
+				A7BD52321A53A8B60018891E /* AppDelegate.m */,
+				A7BD52341A53A8B60018891E /* FirstViewController.h */,
+				A7BD52351A53A8B60018891E /* FirstViewController.m */,
+				A7BD523D1A53A8B60018891E /* Images.xcassets */,
+				A7BD523F1A53A8B60018891E /* LaunchScreen.xib */,
+				A7BD522D1A53A8B60018891E /* Supporting Files */,
+			);
+			name = RestEaze;
+			path = "REST EAZE";
+			sourceTree = "<group>";
+		};
+		A7BD522D1A53A8B60018891E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD522E1A53A8B60018891E /* Info.plist */,
+				A7BD522F1A53A8B60018891E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7BD52491A53A8B60018891E /* RestEazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD524C1A53A8B60018891E /* REST_EAZETests.m */,
+				A7BD524A1A53A8B60018891E /* Supporting Files */,
+			);
+			name = RestEazeTests;
+			path = "REST EAZETests";
+			sourceTree = "<group>";
+		};
+		A7BD524A1A53A8B60018891E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD524B1A53A8B60018891E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D1D5481A70D40900591144 /* FSLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1D5491A70D40900591144 /* FSLineChart.h */,
+				A7D1D54A1A70D40900591144 /* FSLineChart.m */,
+				A7D1D54B1A70D40900591144 /* UIColor+FSPalette.h */,
+				A7D1D54C1A70D40900591144 /* UIColor+FSPalette.m */,
+			);
+			path = FSLineChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7BD52291A53A8B60018891E /* RestEaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD52501A53A8B60018891E /* Build configuration list for PBXNativeTarget "RestEaze" */;
+			buildPhases = (
+				A7BD52261A53A8B60018891E /* Sources */,
+				A7BD52271A53A8B60018891E /* Frameworks */,
+				A7BD52281A53A8B60018891E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestEaze;
+			productName = "REST EAZE";
+			productReference = A7BD522A1A53A8B60018891E /* RestEaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7BD52451A53A8B60018891E /* RestEazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD52531A53A8B60018891E /* Build configuration list for PBXNativeTarget "RestEazeTests" */;
+			buildPhases = (
+				A7BD52421A53A8B60018891E /* Sources */,
+				A7BD52431A53A8B60018891E /* Frameworks */,
+				A7BD52441A53A8B60018891E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BD52481A53A8B60018891E /* PBXTargetDependency */,
+			);
+			name = RestEazeTests;
+			productName = "REST EAZETests";
+			productReference = A7BD52461A53A8B60018891E /* RestEazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BD52221A53A8B50018891E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Amitanshu Jha";
+				TargetAttributes = {
+					A7BD52291A53A8B60018891E = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Z87BB48ZBJ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					A7BD52451A53A8B60018891E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A7BD52291A53A8B60018891E;
+					};
+				};
+			};
+			buildConfigurationList = A7BD52251A53A8B50018891E /* Build configuration list for PBXProject "RestEaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BD52211A53A8B50018891E;
+			productRefGroup = A7BD522B1A53A8B60018891E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BD52291A53A8B60018891E /* RestEaze */,
+				A7BD52451A53A8B60018891E /* RestEazeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BD52281A53A8B60018891E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EDF5711A8AD8E10075725C /* Main.storyboard in Resources */,
+				A7BD52411A53A8B60018891E /* LaunchScreen.xib in Resources */,
+				A7BD523E1A53A8B60018891E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BD52441A53A8B60018891E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BD52261A53A8B60018891E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F316DA1A810FDB00806DBC /* BackgroundTaskManager.m in Sources */,
+				A743D39A1A57130F004A65E2 /* FourthViewController.m in Sources */,
+				A7D1D54D1A70D40900591144 /* FSLineChart.m in Sources */,
+				A7F316DC1A810FDB00806DBC /* LocationTracker.m in Sources */,
+				A7BD52331A53A8B60018891E /* AppDelegate.m in Sources */,
+				A7F316DB1A810FDB00806DBC /* LocationShareModel.m in Sources */,
+				A7EDF56E1A8AC56C0075725C /* LoginViewController.m in Sources */,
+				A7BD52361A53A8B60018891E /* FirstViewController.m in Sources */,
+				A7D1D54E1A70D40900591144 /* UIColor+FSPalette.m in Sources */,
+				A7BD52301A53A8B60018891E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BD52421A53A8B60018891E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BD524D1A53A8B60018891E /* REST_EAZETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7BD52481A53A8B60018891E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BD52291A53A8B60018891E /* RestEaze */;
+			targetProxy = A7BD52471A53A8B60018891E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7BD523F1A53A8B60018891E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BD52401A53A8B60018891E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A7EDF56F1A8AD8E10075725C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EDF5701A8AD8E10075725C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7BD524E1A53A8B60018891E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7BD524F1A53A8B60018891E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BD52511A53A8B60018891E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "REST EAZE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libpushwizard",
+				);
+				PRODUCT_NAME = RestEaze;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7BD52521A53A8B60018891E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "REST EAZE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libpushwizard",
+				);
+				PRODUCT_NAME = RestEaze;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A7BD52541A53A8B60018891E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "REST EAZETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RestEazeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST EAZE.app/REST EAZE";
+			};
+			name = Debug;
+		};
+		A7BD52551A53A8B60018891E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "REST EAZETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RestEazeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST EAZE.app/REST EAZE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BD52251A53A8B50018891E /* Build configuration list for PBXProject "RestEaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BD524E1A53A8B60018891E /* Debug */,
+				A7BD524F1A53A8B60018891E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD52501A53A8B60018891E /* Build configuration list for PBXNativeTarget "RestEaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BD52511A53A8B60018891E /* Debug */,
+				A7BD52521A53A8B60018891E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD52531A53A8B60018891E /* Build configuration list for PBXNativeTarget "RestEazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BD52541A53A8B60018891E /* Debug */,
+				A7BD52551A53A8B60018891E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BD52221A53A8B50018891E /* Project object */;
+}
